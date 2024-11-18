@@ -1,11 +1,11 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { test, expect } from 'vitest';
-import * as matchers from '@testing-library/jest-dom/matchers'
+import '@testing-library/jest-dom';
+
 
 import App from './App';
-//import '@testing-library/jest-dom/extend-expect';
 
-expect.extend(matchers);
+
 
 
 
